@@ -1,0 +1,21 @@
+//Elementos do MenuAdmin
+export const ELEMENTS = {
+    menuAdmin: '[href$=viewAdminModule]',
+    userrole: ':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text',
+    selecionarESS: ('[role="option"]', 'ESS'),
+    status: ':nth-child(4) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text',
+    selecionarEnabled: ('[role="option"]', 'Enabled'),
+    buttonSearch: 'button[class$="-left-space"]',
+    registrosEncontrados: ('span', 'Records Found'),
+    excluirUsuarioESS:':nth-child(2) > .oxd-input',
+    buttonLixeira: '.oxd-table-cell-actions > :nth-child(1)',
+    buttonDelete: '.oxd-button--label-danger',
+    buttonAdd: 'button[class$="--secondary"]',
+    userroleAdd: ':nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text',
+    selecionarAdmin: ('[role="option"]', 'Admin'),
+    employeeName: 'input[placeholder="Type for hints..."]',
+    novoUsuario: ':nth-child(4) > .oxd-input-group > :nth-child(2) > .oxd-input',
+    passwordNovoUsuario: '.user-password-cell > .oxd-input-group > :nth-child(2) > .oxd-input',
+    confirmarPasswordNovoUsuario: ':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input',
+    buttonSave: 'button[class$="-left-space"]',
+ }
